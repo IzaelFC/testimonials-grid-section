@@ -3,10 +3,10 @@ export default function App() {
     <main className="md:flex gap-5 m-auto md:w-full w-full md:p-5 sm:p-3 p-2 md:space-y-0 space-y-5 sm:text-xs text-xs md:text-sm">
       <div className="sm:grid md:grid-cols-3 sm:grid-cols-2 gap-5 md:space-y-0 space-y-5">
         <section className="bg-[--Moderate-violet] text-[--Light-grayish-blue] relative col-span-2 space-y-3 px-5 py-2 rounded-xl shadow-2xl shadow-black/30 z-0">
-          <img className="absolute md:mr-20 mr-5 -z-10 top-0 right-0" src="src/assets/images/bg-pattern-quotation.svg" alt="" />
+          <img className="absolute md:mr-20 mr-5 -z-10 top-0 right-0" src="/images/bg-pattern-quotation.svg" alt="" />
           
           <div className="flex gap-3">
-            <img className="w-10 h-10 rounded-full" src="src/assets/images/image-daniel.jpg" alt="" />
+            <img className="w-10 h-10 rounded-full" src="/images/image-daniel.jpg" alt="" />
             <div>
               <h1 className="font-semibold">Daniel Clifford</h1>
               <h2 className="font-semibold opacity-50">Verified Graduate</h2>
@@ -29,7 +29,7 @@ export default function App() {
 
         <section className="bg-[--Very-dark-grayish-blue] text-[--Light-grayish-blue] space-y-3 p-5 rounded-xl shadow-2xl shadow-black/30">
           <div className="flex gap-3">
-            <img className="rounded-full w-10 h-10" src="src/assets/images/image-jonathan.jpg" alt="" />
+            <img className="rounded-full w-10 h-10" src="/images/image-jonathan.jpg" alt="" />
             <div>
               <h1 className="font-semibold">Jonathan Walters</h1>
               <h2 className="font-semibold opacity-50">Verified Graduate</h2>
@@ -46,7 +46,7 @@ export default function App() {
 
         <section className="bg-[--Light-grayish-blue] text-[--Very-dark-grayish-blue] space-y-3 p-5 rounded-xl shadow-2xl shadow-black/30">
           <div className="flex gap-3">
-            <img className="rounded-full w-10 h-10" src="src/assets/images/image-jeanette.jpg" alt="" />
+            <img className="rounded-full w-10 h-10" src="/images/image-jeanette.jpg" alt="" />
             <div>
               <h1 className="font-semibold">Jeanette Harmon</h1>
               <h2 className="font-semibold opacity-50">Verified Graduate</h2>
@@ -63,7 +63,7 @@ export default function App() {
 
         <section className="bg-[--Very-dark-blackish-blue] text-[--Light-grayish-blue] space-y-3 col-span-2 p-5 rounded-xl shadow-2xl shadow-black/30">
           <div className="flex gap-3">
-            <img className="rounded-full w-10 h-10" src="src/assets/images/image-patrick.jpg" alt="" />
+            <img className="rounded-full w-10 h-10" src="/images/image-patrick.jpg" alt="" />
             <div>
               <h1 className="font-semibold">Patrick Abrams</h1>
               <h2 className="font-semibold opacity-50">Verified Graduate</h2>
@@ -86,7 +86,7 @@ export default function App() {
 
       <section className="bg-[--Light-grayish-blue] text-[--Very-dark-grayish-blue] w-full space-y-3 p-5 rounded-xl shadow-2xl shadow-black/30">
         <div className="flex gap-3">
-          <img className="rounded-full w-10 h-10" src="src/assets/images/image-kira.jpg" alt="" />
+          <img className="rounded-full w-10 h-10" src="/images/image-kira.jpg" alt="" />
           <div>
             <h1 className="font-semibold">Kira Whittle</h1>
             <h2 className="font-semibold opacity-50">Verified Graduate</h2>
